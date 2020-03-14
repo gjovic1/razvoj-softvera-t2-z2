@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.Controller">
+   <children>
+      <Button fx:id="ispisBtn" layoutX="149.0" layoutY="137.0" mnemonicParsing="false" onAction="#sumCifara" text="ISPIŠI" />
+      <TextField fx:id="unosFld" layoutX="98.0" layoutY="71.0" promptText="Unesite broj sa tastature:" />
+      <TextField fx:id="ispisFld" editable="false" layoutX="98.0" layoutY="213.0" />
+   </children>
+</Pane>
